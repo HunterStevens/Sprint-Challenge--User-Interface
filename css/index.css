@@ -191,8 +191,30 @@ header nav a{
     margin: 0 2%;
 }
 header nav a:hover{
-    background-color: black;
-    color: white;
+    animation-name: NavHover;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes NavHover{
+    0%{
+        border: none;
+        color: black;
+        background-color: white;
+        padding: 0px;
+    }
+    50%{
+        border: solid 3px gray;
+        color: white;
+        background-color: midnightblue;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    100%{
+        border: none;
+        color: black;
+        background-color: white;
+        padding: 0px;
+    }
 }
 
 /*About page*/
@@ -223,4 +245,39 @@ header nav a:hover{
     padding:8px 10px;
     font-size: 14px;
     font-weight: 540;
+}
+
+.MainCont div button:hover{
+    animation-name: LearnHover;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes LearnHover{
+    0%{
+        background-color: white;
+    border-radius: 10px;
+    border: solid 2px black;
+    font-size: 14px;
+    padding:8px 10px;
+    }
+    50%{
+        border: dashed 3px gray;
+        color: white;
+        background-color: tomato;
+        border-radius: 20px;
+        padding: 4px 5px;
+        font-size: 20px;
+    }
+    100%{
+        background-color: white;
+    border-radius: 10px;
+    border: solid 2px black;
+    font-size: 14px;
+    padding:8px 10px;
+    }
+}
+
+footer nav a:hover{
+    text-decoration: underline;
+    
 }
