@@ -104,13 +104,44 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .Box1{
+    background-color: teal;
+}
+.middle-content .boxes .Box2{
+    background-color: gold;
+}
+.middle-content .boxes .Box3{
+    background-color: cadetblue;
+}
+.middle-content .boxes .Box4{
+    background-color: coral;
+}
+.middle-content .boxes .Box5{
+    background-color: crimson;
+}
+.middle-content .boxes .Box6{
+    background-color: forestgreen;
+}
+.middle-content .boxes .Box7{
+    background-color: darkorchid;
+}
+.middle-content .boxes .Box8{
+    background-color: hotpink;
+}
+.middle-content .boxes .Box9{
+    background-color: indigo;
+}
+.middle-content .boxes .Box10{
+    background-color: dodgerblue;
+}
+
+
 
 .bottom-content {
     display: flex;
