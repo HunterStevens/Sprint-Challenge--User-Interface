@@ -141,8 +141,6 @@ p {
     background-color: dodgerblue;
 }
 
-
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -174,4 +172,55 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/*Nav Bar*/
+header{
+    display: block;
+    padding: 2% 0px;
+}
+header nav{
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin: 0 2%;
+}
+header nav a:hover{
+    background-color: black;
+    color: white;
+}
+
+/*About page*/
+
+
+.MainCont{
+    border-top: dashed 1px black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.MainCont div{
+    width: 370px;
+    margin: 16px 5px;
+    padding: 2% 0px;
+    border-bottom: dashed 1px black;
+}
+.MainCont div img{
+    margin-bottom: 3%;
+}
+
+.MainCont div button{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: solid 2px black;
+    padding:8px 10px;
+    font-size: 14px;
+    font-weight: 540;
 }
