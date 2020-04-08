@@ -104,12 +104,41 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.middle-content .boxes .Box1{
+    background-color: teal;
+}
+.middle-content .boxes .Box2{
+    background-color: gold;
+}
+.middle-content .boxes .Box3{
+    background-color: cadetblue;
+}
+.middle-content .boxes .Box4{
+    background-color: coral;
+}
+.middle-content .boxes .Box5{
+    background-color: crimson;
+}
+.middle-content .boxes .Box6{
+    background-color: forestgreen;
+}
+.middle-content .boxes .Box7{
+    background-color: darkorchid;
+}
+.middle-content .boxes .Box8{
+    background-color: hotpink;
+}
+.middle-content .boxes .Box9{
+    background-color: indigo;
+}
+.middle-content .boxes .Box10{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +172,112 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/*Nav Bar*/
+header{
+    display: block;
+    padding: 2% 0px;
+}
+header nav{
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin: 0 2%;
+}
+header nav a:hover{
+    animation-name: NavHover;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes NavHover{
+    0%{
+        border: none;
+        color: black;
+        background-color: white;
+        padding: 0px;
+    }
+    50%{
+        border: solid 3px gray;
+        color: white;
+        background-color: midnightblue;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    100%{
+        border: none;
+        color: black;
+        background-color: white;
+        padding: 0px;
+    }
+}
+
+/*About page*/
+
+
+.MainCont{
+    border-top: dashed 1px black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.MainCont div{
+    width: 370px;
+    margin: 16px 5px;
+    padding: 2% 0px;
+    border-bottom: dashed 1px black;
+}
+.MainCont div img{
+    margin-bottom: 3%;
+}
+
+.MainCont div button{
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: solid 2px black;
+    padding:8px 10px;
+    font-size: 14px;
+    font-weight: 540;
+}
+
+.MainCont div button:hover{
+    animation-name: LearnHover;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes LearnHover{
+    0%{
+        background-color: white;
+    border-radius: 10px;
+    border: solid 2px black;
+    font-size: 14px;
+    padding:8px 10px;
+    }
+    50%{
+        border: dashed 3px gray;
+        color: white;
+        background-color: tomato;
+        border-radius: 20px;
+        padding: 4px 5px;
+        font-size: 20px;
+    }
+    100%{
+        background-color: white;
+    border-radius: 10px;
+    border: solid 2px black;
+    font-size: 14px;
+    padding:8px 10px;
+    }
+}
+
+footer nav a:hover{
+    text-decoration: underline;
+    
 }
